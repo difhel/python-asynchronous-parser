@@ -1,4 +1,4 @@
-<img src="https://github.com/nightadmin/python-asynchronous-parser/blob/main/logo.jpg" width="100">
+<img src="https://github.com/nightadmin/python-asynchronous-parser/blob/main/logo.jpg" width="200">
 
 
 
@@ -24,6 +24,7 @@ It is founded by system module Asyncio and user module Aiohttp on Python.
 You can see the docs for this libraries here:
 * [Asincio Docs](https://docs.python.org/3/library/asyncio.html)
 * [Aiohttp Docs](https://docs.aiohttp.org/en/stable/)
+
 Installing module aiohttp using pip:
 ```bash
 pip3 install aiohttp
