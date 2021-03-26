@@ -3,6 +3,7 @@
 
 
 # python-asynchronous-parser
+The simple asynchronous python parser
 
 # Languages 
  - [Русский](https://github.com/nightadmin/python-asynchronous-parser#русский)
@@ -12,6 +13,8 @@
 Простой пример работы асинхронных запросов на Python в виде парсера.
 Используются библиотеки Asyncio (системная) и Aiohttp (прикладная) для обеспечения асинхронности GET-запроса.
 Документации к библиотекам:
+* [Asincio Docs](https://docs.python.org/3/library/asyncio.html)
+* [Aiohttp Docs](https://docs.aiohttp.org/en/stable/)
 
 Установка прикладного модуля aiohttp через утилиту pip:
 ```bash
