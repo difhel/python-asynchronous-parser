@@ -5,15 +5,15 @@
 Электронная почта: luring.uliksir@gmail.com
 '''
 
-#импортируеи нужные модули
+#импортируем нужные модули
 import aiohttp
 import asyncio
 
 #создаем основную функцию
 async def main():
-    #создаем асинзронную сессию соединения
+    #создаем асинхронную сессию соединения
     async with aiohttp.ClientSession() as session:
-        #делаем GET-запрос с официальной страницы разработчика ВКонтакте
+        #делаем GET-запрос с официальной страницы разработчика этого парсера ВКонтакте (вставьте свой url)
         async with session.get("https://vk.com/na_official") as response:
             #выводим код этого запроса
             print("Status:", response.status)
