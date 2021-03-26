@@ -13,7 +13,7 @@ import asyncio
 async def main():
     #create the asynchronous session
     async with aiohttp.ClientSession() as session:
-        #create GET-request from official VK Page of the developer of the parser
+        #create GET-request from official VK Page of the developer of the parser (you can paste here your own url)
         async with session.get("https://vk.com/na_official") as response:
             #print the response status code
             print("Status:", response.status)
