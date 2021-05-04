@@ -20,6 +20,14 @@ The simple asynchronous python parser
 ```bash
 pip3 install aiohttp
 ```
+Клонируйте репозиторий для просмотра:
+```bash
+mkdir parser
+cd parser
+git clone https://github.com/nightadmin/python-asynchronous-parser.git
+cd python-asynchronous-parser
+ls
+```
 
 # English
 Simple asynchronous web-parser.
@@ -32,7 +40,14 @@ Installing module aiohttp using pip:
 ```bash
 pip3 install aiohttp
 ```
-
+Clone te repo to watch the content:
+```bash
+mkdir parser
+cd parser
+git clone https://github.com/nightadmin/python-asynchronous-parser.git
+cd python-asynchronous-parser
+ls
+```
 
 
 
